@@ -46,7 +46,7 @@ namespace prometheus_dotnetcore_demo
 
         private static void SetupRequirements()
         {
-            var metricServer = new MetricServer(port: 1234);
+            var metricServer = new MetricServer(port: 8080);
             metricServer.Start();
         }
     }
